@@ -1,0 +1,13 @@
+  name: Verzamel informatie over IOS-versie
+  hosts: doelgroep
+  gather_facts: true
+  tasks:
+    - name: Voer het 'show version'-commando uit
+      ios_command:
+        commands:
+          - show version
+      register: ios_version_info
+
+    - name: Toon informatie over IOS-versie
+      debug:
+        var: ios_version_info.stdout_lines
