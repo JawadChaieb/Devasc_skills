@@ -125,6 +125,9 @@ stap 5: zie commando’s in bijlage foto.
 
 Task 7 – Bach
 nvt: probleem communicatie tussen laptop en router,switch.
+
+
+
 Task 10 — DANC
 stap1: maak een folder met de naam “DANC”
 stap2: python file met de naam “DANC.py”
